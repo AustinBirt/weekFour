@@ -141,13 +141,37 @@
 // }
 // console.log(stringsLongerThan(1, array));
 
-//question10
-// function addList(...numbers){
-//     let sum=0;
-//     for (let i=0;i<numbers.length; i++){
-//         sum+=numbers[i];
-//     }
-//     return sum
+// //question10
+// // function addList(...numbers){
+// //     let sum=0;
+// //     for (let i=0;i<numbers.length; i++){
+// //         sum+=numbers[i];
+// console.log(sum);
+// //     }
+// console.log(sum);
+// //     return sum
+// // }
+
+// // console.log(addList(1,3,4,5,6))
+
+
+
+//other practice
+// function greeting(){
+//     return sayHi();
+// }
+// function sayHi(){
+//     return 'hi!';
 // }
 
-// console.log(addList(1,3,4,5,6))
+// console.log(greeting());
+
+// const euros = [29.76, 41.85, 46.5];
+
+// const average = euros.reduce((total, amount, index, array) => {
+//   total += amount;
+//   return
+// });
+// console.log(average);
+
+

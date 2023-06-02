@@ -211,14 +211,14 @@ personThree={
 
     //question 6
 
-    let thoughts={
-        good:"I love you",
-        bad:"I hate you",
-        unsure:"Wot"
-    }
-personOne.thoughts=thoughts;
-personTwo.thoughts=thoughts;
-personThree.thoughts=thoughts;
-console.log(personOne);
-console.log(personTwo);
-console.log(personThree);
+//     let thoughts={
+//         good:"I love you",
+//         bad:"I hate you",
+//         unsure:"Wot"
+//     }
+// personOne.thoughts=thoughts;
+// personTwo.thoughts=thoughts;
+// personThree.thoughts=thoughts;
+// console.log(personOne);
+// console.log(personTwo);
+// console.log(personThree);
