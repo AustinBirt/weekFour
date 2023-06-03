@@ -134,49 +134,49 @@ console.log(Frost);
 
 
 
-class Tome {
-	constructor (maker, serialNum) {
-	  this.maker = maker;
-	  this.spellType = spellType;
-	  this.serialNum = serialNum;
-	}
-	cast () {
-	  console.log('Casting a spell!');
-	}
-  }
+// class Tome {
+// 	constructor (maker, serialNum) {
+// 	  this.maker = maker;
+// 	  this.spellType = spellType;
+// 	  this.serialNum = serialNum;
+// 	}
+// 	cast () {
+// 	  console.log('Casting a spell!');
+// 	}
+//   }
   
-  const fireTome = new Tome('Merlin', 'Fire', 1);
-  console.log(fireTome);
+//   const fireTome = new Tome('Merlin', 'Fire', 1);
+//   console.log(fireTome);
 
 
-  class Factory {
-	constructor (maker) {
-	  this.maker = maker;
-	  this.tomes = [];
-	}
-	generateTome (spellType) {
-	  const newTome = new Tome(this.maker, spellType, this.tomes.length);
-	  this.tomes.push(newTome);
-	}
-	findTome (index) {
-	  return this.tomes[index];
-	}
-  }
+//   class Factory {
+// 	constructor (maker) {
+// 	  this.maker = maker;
+// 	  this.tomes = [];
+// 	}
+// 	generateTome (spellType) {
+// 	  const newTome = new Tome(this.maker, spellType, this.tomes.length);
+// 	  this.tomes.push(newTome);
+// 	}
+// 	findTome (index) {
+// 	  return this.tomes[index];
+// 	}
+//   }
   
-  const merlin = new Factory('Merlin');
-  merlin.generateTome('Fire');
-  merlin.generateTome('Water');
-  merlin.generateTome('Earth');
-  merlin.generateTome('Air');
-  console.log(merlin);
-  console.log(merlin.findTome(0));
+//   const merlin = new Factory('Merlin');
+//   merlin.generateTome('Fire');
+//   merlin.generateTome('Water');
+//   merlin.generateTome('Earth');
+//   merlin.generateTome('Air');
+//   console.log(merlin);
+//   console.log(merlin.findTome(0));
 
 
-  const gandalf = new Factory('Gandalf');
-  gandalf.generateTome('Light');
-  gandalf.generateTome('Dark');
-  console.log(gandalf);
-  console.log(gandalf.findTome(0));
+//   const gandalf = new Factory('Gandalf');
+//   gandalf.generateTome('Light');
+//   gandalf.generateTome('Dark');
+//   console.log(gandalf);
+//   console.log(gandalf.findTome(0));
 
 
 
